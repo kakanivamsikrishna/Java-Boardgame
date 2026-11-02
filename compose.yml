@@ -1,0 +1,7 @@
+---
+services:
+  boardgame:
+    container_name: boardgame-cont
+    image: vamsikrishnakakani/board-game
+    ports:
+      - "1111:8080"
